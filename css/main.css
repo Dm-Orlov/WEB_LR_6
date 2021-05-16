@@ -1,0 +1,2092 @@
+/* montserrat-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-800 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-900 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/montserrat-v15-latin_cyrillic-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v15-latin_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Montserrat';
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+frame {
+    position: relative;
+    width: 1920px;
+
+    background: #FFFFFF;
+}
+
+.first-screen{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+
+.first-screen__image{
+    position: absolute;
+    width: 556px;
+    height: 377px;
+    left: 959px;
+    top: 216px;
+}
+
+.first-screen__main-menu{
+    position: absolute;
+    width: 918px;
+    height: 17px;
+    left: 405px;
+    top: 61px;
+}
+
+.forman{
+    position: absolute;
+    width: 95px;
+    height: 17px;
+    left: 405px;
+    top: 61px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* Black */
+
+    color: #212121;
+    white-space: nowrap;
+}
+
+.forwoman{
+    position: absolute;
+    width: 99px;
+    height: 17px;
+    left: 545px;
+    top: 61px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* Black */
+
+    color: #212121;
+    white-space: nowrap;
+}
+
+.forkids{
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 689px;
+    top: 61px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* Black */
+
+    color: #212121;
+    white-space: nowrap;
+}
+
+.polygon1{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 510px;
+    top: 65px;
+}
+
+.polygon2{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 654px;
+    top: 65px;
+}
+
+.polygon3{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 778px;
+    top: 65px;
+}
+
+.pay{
+    position: absolute;
+    width: 56px;
+    height: 17px;
+    left: 1160px;
+    top: 61px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* Black */
+
+    color: #212121;
+}
+
+.delivery{
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1251px;
+    top: 61px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* Black */
+
+    color: #212121;
+}
+
+.rectangle{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+
+    /* Cream */
+
+    background: #F9F6F1;
+}
+
+.logo{
+    position: absolute;
+    width: 201px;
+    height: 40px;
+    left: 869px;
+    top: 50px;
+}
+
+.first-screen__basket{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 1424px;
+    top: 54px;
+}
+
+.sale{
+    position: absolute;
+    width: 570px;
+    height: 51px;
+    left: 405px;
+    top: 313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.winterSale{
+    position: absolute;
+    width: 335px;
+    height: 28px;
+    left: 405px;
+    top: 250px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.group2{
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    left: 405px;
+    top: 419px;
+}
+
+.rectangle3{
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    left: 405px;
+    top: 419px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.viewModels{
+    position: absolute;
+    width: 181px;
+    height: 20px;
+    left: 434px;
+    top: 436px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.sum1{
+    /* 1 900 ₽ */
+
+
+    position: absolute;
+    width: 163px;
+    height: 51px;
+    left: 1352px;
+    top: 299px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #D84033;
+}
+
+.sum2{
+    /* 9 900 ₽ */
+
+
+    position: absolute;
+    width: 104px;
+    height: 29px;
+    left: 1404px;
+    top: 256px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.running_shoes_PNG5823{
+    position: absolute;
+    width: 556px;
+    height: 377px;
+    left: 959px;
+    top: 216px;
+
+    background: url(../img/first-screen/running_shoes_PNG5823.png)
+}
+
+.first-screen__slider-controls{
+    position: absolute;
+    width: 205px;
+    height: 7px;
+    left: 857px;
+    top: 723px;
+}
+
+.rectangle31{
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 912px;
+    top: 723px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.rectangle32{
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 967px;
+    top: 723px;
+
+    background: #CECECE;
+}
+
+.rectangle33{
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 1022px;
+    top: 723px;
+
+    background: #CECECE;
+}
+
+.rectangle30{
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 857px;
+    top: 723px;
+
+    background: #CECECE;
+}
+
+.createBuy{
+    position: absolute;
+    width: 394px;
+    height: 26px;
+    left: 762px;
+    top: 940px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.freeDevilery{
+    position: absolute;
+    width: 588px;
+    height: 37px;
+    left: 665px;
+    top: 880px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.RECTANGLE3{
+    position: absolute;
+    width: 1920px;
+    height: 235px;
+    left: 0px;
+    top: 800px;
+
+    /* Black */
+
+    background: #212121;
+}
+
+.rectangle4{
+    position: absolute;
+    width: 960px;
+    height: 250px;
+    left: 0px;
+    top: 1036px;
+
+    /* Cream */
+
+    background: #F9F6F1;
+}
+
+.manpng{
+    position: absolute;
+    width: 190px;
+    height: 171px;
+    left: 755px;
+    top: 1115px;
+
+    background: url(../img/men-col/Download-Mens-Fashion-PNG-Clipart.png), #F9F6F1;
+}
+
+.mancol{
+    /* МУЖСКАЯ КОЛЛЕКЦИЯ */
+
+
+    position: absolute;
+    width: 366px;
+    height: 22px;
+    left: 426px;
+    top: 1096px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.menproduct{
+    position: absolute;
+    width: 264px;
+    height: 15px;
+    left: 426px;
+    top: 1143px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.arrowMan{
+    position: absolute;
+    width: 20px;
+    left: 455px;
+    top: 1210px;
+}
+
+.arrowRectangleMan{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 425px;
+    top: 1198px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.arrowWoman{
+    position: absolute;
+    width: 20px;
+    left: 1025px;
+    top: 1210px;
+}
+
+.arrowRectangleWoman{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 995px;
+    top: 1198px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.womancol{
+    position: absolute;
+    width: 366px;
+    height: 22px;
+    left: 996px;
+    top: 1096px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.womanproduct{
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    left: 996px;
+    top: 1143px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.rectangle41{
+    position: absolute;
+    width: 960px;
+    height: 250px;
+    left: 960px;
+    top: 1036px;
+
+    background: #F4F4F4;
+}
+
+.womanpng{
+    position: absolute;
+    width: 190px;
+    height: 171px;
+    left: 1312px;
+    top: 1115px;
+
+    background: url(../img/woman-col/e4afb008824a84d63bc5a8bfdfc05cfc.png), #F4F4F4;
+}
+
+.dress1{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 435px;
+    top: 1472px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress2{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 712px;
+    top: 1472px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress3{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 990px;
+    top: 1472px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress4{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 1267px;
+    top: 1472px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress5{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 435px;
+    top: 1708px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress6{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 712px;
+    top: 1708px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress7{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 990px;
+    top: 1708px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress8{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 1267px;
+    top: 1708px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dress1png{
+    position: absolute;
+    width: 277px;
+    height: 236px;
+    left: 405px;
+    top: 1286px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F4F4F4;
+}
+
+.dress2png{
+    position: absolute;
+    width: 278px;
+    height: 236px;
+    left: 682px;
+    top: 1286px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F9F6F1;
+}
+
+.dress3png{
+    position: absolute;
+    width: 277px;
+    height: 236px;
+    left: 960px;
+    top: 1286px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F4F4F4;
+}
+
+.dress4png{
+    position: absolute;
+    width: 278px;
+    height: 236px;
+    left: 1237px;
+    top: 1286px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F9F6F1;
+}
+
+.dress5png{
+    position: absolute;
+    width: 277px;
+    height: 236px;
+    left: 405px;
+    top: 1522px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F9F6F1;
+}
+
+.dress6png{
+    position: absolute;
+    width: 278px;
+    height: 236px;
+    left: 682px;
+    top: 1522px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F4F4F4;
+}
+
+.dress7png{
+    position: absolute;
+    width: 277px;
+    height: 236px;
+    left: 960px;
+    top: 1522px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F9F6F1;
+}
+
+.dress8png{
+    position: absolute;
+    width: 278px;
+    height: 236px;
+    left: 1237px;
+    top: 1522px;
+
+    background: url(../img/catalog/Grey-T-Shirt-PNG.png), #F4F4F4;
+}
+
+.newModels{
+    position: absolute;
+    width: 351px;
+    height: 44px;
+    left: 784px;
+    top: 1908px;
+
+    /* h2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #212121;
+    white-space: nowrap;
+}
+
+.modelpng1{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 430px;
+    top: 2077px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money1{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 486px;
+    top: 2357px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 476px;
+    top: 2313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines1{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 405px;
+    top: 2052px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+
+.modelpng2{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 715px;
+    top: 2077px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money2{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 771px;
+    top: 2357px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress2{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 761px;
+    top: 2313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines2{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 690px;
+    top: 2052px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.modelpng3{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 1000px;
+    top: 2077px;;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money3{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 1056px;
+    top: 2357px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress3{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 1046px;
+    top: 2313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines3{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 975px;
+    top: 2052px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.modelpng4{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 1285px;
+    top: 2077px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money4{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 1341px;
+    top: 2357px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress4{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 1331px;
+    top: 2313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines4{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 1260px;
+    top: 2052px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.rectangle5{
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 850px;
+    top: 2502px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.allModels{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 885px;
+    top: 2520px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.arrowRectangle5{
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 1015px;
+    top: 2520px;
+}
+
+.rectangle6{
+    position: absolute;
+    width: 1920px;
+    height: 180px;
+    left: 0px;
+    top: 2707px;
+
+    /* Black */
+
+    background: #212121;
+}
+
+.giveMoney{
+    position: absolute;
+    width: 575px;
+    height: 37px;
+    left: 405px;
+    top: 2779px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.inputField{
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    left: 1040px;
+    top: 2777px;
+
+    /* Cream */
+
+    background: #F9F6F1;
+}
+
+.subscribe{
+    position: absolute;
+    width: 157.55px;
+    height: 17px;
+    left: 1344px;
+    top: 2789px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.subscribeButton{
+    position: absolute;
+    width: 185px;
+    height: 40px;
+    left: 1330px;
+    top: 2777px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.sale90{
+    position: absolute;
+    width: 344px;
+    height: 44px;
+    left: 788px;
+    top: 3037px;
+
+    /* h2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #212121;
+    white-space: nowrap;
+}
+
+
+
+.modelpng5{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 430px;
+    top: 3206px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money5{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 486px;
+    top: 3486px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress5{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 476px;
+    top: 3442px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines5{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 405px;
+    top: 3181px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.modelpng6{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 715px;
+    top: 3206px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money6{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 771px;
+    top: 3486px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress6{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 761px;
+    top: 3442px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines6{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 690px;
+    top: 3181px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.modelpng7{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 1000px;
+    top: 3206px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money7{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 1056px;
+    top: 3486px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress7{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 1046px;
+    top: 3442px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines7{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 975px;
+    top: 3181px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.modelpng8{
+    position: absolute;
+    width: 205px;
+    height: 211px;
+    left: 1285px;
+    top: 3206px;
+
+    background: url(../img/new_models/girl_big.png), #FFFFFF;
+}
+
+.money8{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 1341px;
+    top: 3486px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.coctailDress8{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 1331px;
+    top: 3442px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lines8{
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    left: 1260px;
+    top: 3181px;
+
+    background: url(../img/new_models/Lines.png)
+}
+
+
+.rectangle7{
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 850px;
+    top: 3631px;
+
+    /* Accent */
+
+    background: #D7B399;
+}
+
+.allModels2{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 885px;
+    top: 3649px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.arrowRectangle7{
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 1015px;
+    top: 3650px;
+}
+
+
+.frameFooter{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 405px;
+    top: 3909px;
+}
+
+.footerRectangle{
+    position: absolute;
+    width: 1920px;
+    height: 311px;
+    left: 0px;
+    top: 3836px;
+
+    /* Black */
+
+    background: #212121;
+}
+
+.footerName{
+    position: absolute;
+    width: 141px;
+    height: 27px;
+    left: 465px;
+    top: 3915px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footerDescription{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    left: 405px;
+    top: 3981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+
+    color: #FFFFFF;
+}
+
+.mainLink{
+    position: absolute;
+    width: 116px;
+    height: 13px;
+    left: 829px;
+    top: 3916px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.aboutCompany{
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 829px;
+    top: 3949px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.catalog{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 829px;
+    top: 3981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.deliveryFoooter{
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    left: 829px;
+    top: 4013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.payFooter{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 829px;
+    top: 4045px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.categories{
+    position: absolute;
+    width: 65px;
+    height: 13px;
+    left: 1029px;
+    top: 3916px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footerMan{
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 1029px;
+    top: 3949px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.footerWoman{
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 1029px;
+    top: 3981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.footerKids{
+    position: absolute;
+    width: 117px;
+    height: 22px;
+    left: 1029px;
+    top: 4013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.footerPets{
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1029px;
+    top: 4045px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.niceLinks{
+    position: absolute;
+    width: 114px;
+    height: 13px;
+    left: 1229px;
+    top: 3916px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.tableSizes{
+    position: absolute;
+    width: 137px;
+    height: 22px;
+    left: 1229px;
+    top: 3949px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.blog{
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 1229px;
+    top: 3981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.mission{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 1229px;
+    top: 4013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.socNet{
+    position: absolute;
+    width: 56px;
+    height: 13px;
+    left: 1419px;
+    top: 3916px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.vk{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 1448px;
+    top: 3949px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.fb{
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    left: 1448px;
+    top: 3981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.instagram{
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 1448px;
+    top: 4013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #CBCFD4;
+}
+
+.vkpng{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1419px;
+    top: 3946px;
+
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.fbpng{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1419px;
+    top: 3978px;
+
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.instagrampng{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1419px;
+    top: 4010px;
+
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Accent */
+
+    color: #D7B399;
+}
+
+.copyright{
+    position: absolute;
+    width: 284px;
+    height: 22px;
+    left: 405px;
+    top: 4177px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* Black */
+
+    color: #212121;
+}
+
+.politicPrivacy{
+    position: absolute;
+    width: 170px;
+    height: 22px;
+    left: 1345px;
+    top: 4177px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* Black */
+
+    color: #212121;
+}
+
+.name{
+    position: absolute;
+    width: 141px;
+    height: 27px;
+    left: 929px;
+    top: 56px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #212121;
+}
